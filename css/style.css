@@ -1,0 +1,26 @@
+/* Minimal custom styles, Bootstrap handles most */
+body {
+  background:url(/img/—Pngtree—javanese\ batik\ backgrounds_1985430.png)
+
+}
+
+.card {
+  
+  background: rgba(255, 255, 255, 0.2); /* transparan putih tipis */
+  backdrop-filter: blur(10px);          /* efek blur kaca */
+  -webkit-backdrop-filter: blur(10px);  /* support Safari/Chrome */
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #adb5bd !important;
+}
+footer {
+    display: grid;
+    justify-content: center;
+    color: black;
+    margin-bottom: 5px;
+}
